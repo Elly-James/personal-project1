@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Animal Kingdom</title>
+        <link rel="stylesheet" href="/home/smoking/Personal-Projects/personal-project1/style.css">
+        <script></script>
+    </head>
+    <body>
+        <header id="menu">
+            <h1>Welcome to the Animal Kingdom</h1>
+
+        </header>
+        <div class="container">
+            <form id="animal-form">
+                <label for="name">Name</label>
+                <input type="text" id="name"  name="name">
+                <label for="name">Image URL</label>
+                <input type="text" id="image-url" name="image_url">
+                <label for="description">Description</label>
+                <textarea name="description" id="description"></textarea>
+                <button type="submit" id="adopt">Adopt Animal</button>
+            </form>
+            <ul id="animal-list" class="cards">
+                <li>
+                    <img src="https://i.pinimg.com/550x/56/6c/7c/566c7c1c021085496d9d8414dd909c6f.jpg" alt="tiger">
+                    <div class="content">
+                        <h4>Tiger</h4>
+                        <p>
+                            $ <span class="donation-count">0</span> Donated
+                        </p>
+                        <p>They spend entire lifetime on land but they can swim really well.
+                            Easily recognized by its coat of reddish-orange with dark stripes, the tiger is the largest wild cat in the world.
+                             The big cat's tail is three feet long.
+                        </p>
+                
+                    </div>
+                    <button id="donate">Donate $10</button> 
+                    <button id="set_free">Set Free</button>
+                    
+                </li>
+
+            </ul>
+
+        </div>
+    </body>
+</html>
